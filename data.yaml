@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Ambulance', 'Bikes', 'Bus', 'Fire truck', 'Leguna', 'Pickup', 'Police cars', 'Truck', 'auto-ricksaw', 'cng', 'private car']
+
+roboflow:
+  workspace: capstone-isgou
+  project: capstone-isgou
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/capstone-isgou/capstone-isgou/dataset
