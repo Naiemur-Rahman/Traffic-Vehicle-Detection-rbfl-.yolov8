@@ -1,6 +1,6 @@
 🚦 Traffic Vehicle Detection with YOLOv8
 
-#use this one for clean install and use
+# use this one for clean install and use
 
 This project implements real-time vehicle detection using the YOLOv8 (You Only Look Once) architecture. It is designed to identify and classify various vehicle types (Ambulance, Bus, CNG, etc.) from static images and live YouTube streams.
 🛠️ Prerequisites
