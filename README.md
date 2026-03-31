@@ -5,8 +5,7 @@
 This project implements real-time vehicle detection using the YOLOv8 (You Only Look Once) architecture. It is designed to identify and classify various vehicle types (Ambulance, Bus, CNG, etc.) from static images and live YouTube streams.
 🛠️ Prerequisites
 Python 3.10+ (Recommended)
-Hardware: AMD Ryzen 5 5500 (CPU-based inference)
-RAM: 16GB
+
 🚀 Step-by-Step Setup
 # 1. Project Organization
 Place your data.yaml, train/, and test/ folders in the root directory. Ensure your data.yaml points to the correct local paths:
@@ -44,7 +43,7 @@ model = YOLO('yolov8n.pt')
 model.predict(source='https://www.youtube.com', show=True, save=True)
 Use code with caution.
 
-⚠️ Challenges & Solutions
+# ⚠️ Challenges & Solutions
 During the development of this project, I encountered several critical system errors. Here is how they were resolved:
 1. System Crash & File Corruption
 Problem: My PC restarted during the initial pip install. This caused a SyntaxError: source code string cannot contain null bytes because the internal library files were only half-written.
